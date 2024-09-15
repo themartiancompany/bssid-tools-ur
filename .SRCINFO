@@ -1,8 +1,8 @@
-pkgbase = wireless-tools
+pkgbase = bssid-tools
 	pkgdesc = Wireless tools.
 	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
 	pkgrel = 1
-	url = https://github.com/themartiancompany/wireless-tools
+	url = https://github.com/themartiancompany/bssid-tools
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
@@ -10,9 +10,9 @@ pkgbase = wireless-tools
 	depends = iw-tools
 	depends = libcrash-bash
 	depends = android-wifi-utils
-	source = wireless-tools-4981eb86051758ca0e29c7900ac1120b59e49b91.zip::https://github.com/themartiancompany/wireless-tools/archive/4981eb86051758ca0e29c7900ac1120b59e49b91.zip
+	source = bssid-tools-4981eb86051758ca0e29c7900ac1120b59e49b91.zip::https://github.com/themartiancompany/bssid-tools/archive/4981eb86051758ca0e29c7900ac1120b59e49b91.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
 	validpgpkeys = DD6732B02E6C88E9E27E2E0D5FC6652B9D9A6C01
 	sha256sums = 336adc10541b814a83c55f693ab91b52a73861f060b1f0b8246c2a3b337146fb
 
-pkgname = wireless-tools
+pkgname = bssid-tools

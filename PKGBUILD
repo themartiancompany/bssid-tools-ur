@@ -5,7 +5,7 @@
 
 _offline="false"
 _git="false"
-_pkg=wireless-tools
+_pkg=bssid-tools
 pkgname="${_pkg}"
 pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
 _commit="4981eb86051758ca0e29c7900ac1120b59e49b91"
