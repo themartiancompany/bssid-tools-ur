@@ -1,6 +1,6 @@
 pkgbase = bssid-tools
 	pkgdesc = Wireless tools.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/bssid-tools
 	arch = any
@@ -10,9 +10,9 @@ pkgbase = bssid-tools
 	depends = iw-tools
 	depends = libcrash-bash
 	depends = android-wifi-utils
-	source = bssid-tools-4981eb86051758ca0e29c7900ac1120b59e49b91.zip::https://github.com/themartiancompany/bssid-tools/archive/4981eb86051758ca0e29c7900ac1120b59e49b91.zip
+	source = bssid-tools-7b8f1325b7f8c1f5991f9ee496fc5e51c22ee625.zip::https://github.com/themartiancompany/bssid-tools/archive/7b8f1325b7f8c1f5991f9ee496fc5e51c22ee625.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
 	validpgpkeys = DD6732B02E6C88E9E27E2E0D5FC6652B9D9A6C01
-	sha256sums = 336adc10541b814a83c55f693ab91b52a73861f060b1f0b8246c2a3b337146fb
+	sha256sums = 299b399b0f2c4e52b25d2c3cc1a613024e2e46ec45cba0855ba9e7f97e81cc3d
 
 pkgname = bssid-tools

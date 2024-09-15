@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=bssid-tools
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
-_commit="4981eb86051758ca0e29c7900ac1120b59e49b91"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1"
+_commit="7b8f1325b7f8c1f5991f9ee496fc5e51c22ee625"
 pkgrel=1
 _pkgdesc=(
   "Wireless tools."
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="336adc10541b814a83c55f693ab91b52a73861f060b1f0b8246c2a3b337146fb"
+    _sum="299b399b0f2c4e52b25d2c3cc1a613024e2e46ec45cba0855ba9e7f97e81cc3d"
   fi && \
     source+=(
       "${_tar}"
